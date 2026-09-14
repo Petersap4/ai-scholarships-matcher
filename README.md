@@ -1,4 +1,3 @@
-```markdown
 # AI Scholarship Intelligence Matcher
 
 A Node.js and Express web application powered by Google Gemini that analyzes student profiles and resumes across multiple file formats (PDF, DOCX, TXT, and Images) to deliver verified, customized scholarship recommendations and application strategies.
@@ -23,46 +22,38 @@ A Node.js and Express web application powered by Google Gemini that analyzes stu
 - A Google Gemini API Key ([Get one here](https://aistudio.google.com/))
 
 ## Installation & Setup
-
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/Petersap4/ai-scholarships-matcher.git](https://github.com/Petersap4/ai-scholarships-matcher.git)
    cd ai-scholarships-matcher
-
-```
-
+   ```
 2. **Install dependencies:**
-```bash
-npm install express multer pdf-parse mammoth dotenv @google/genai
-
-```
-
-
+   ```bash
+   npm install express multer pdf-parse mammoth dotenv @google/genai
+   
+   ```
 3. **Configure environment variables:**
 Create a `.env` file in the root directory and add your Gemini API key:
-```env
-GEMINI_API_KEY=your_actual_gemini_api_key_here
-PORT=3000
-
-```
+   ```env
+   GEMINI_API_KEY=your_actual_gemini_api_key_here
+   PORT=3000
+   
+   ```
 
 
 4. **Run the application:**
-```bash
-node server.js
-
-```
+   ```bash
+   node server.js
+   
+   ```
 
 
 5. **Access the app:**
-Open your browser and navigate to `http://localhost:3000`.
+Open your browser and navigate to `http://localhost:3000` or double-click the HTML file (``) and open it with your prefered browser (e.g. Microsoft Edge, Google Chrome or Brave)
+
 
 ## Usage
 
 1. Fill out your academic details (Major, GPA, Country of Study, Academic Year).
 2. Upload your CV/Resume in `.pdf`, `.docx`, `.txt`, or image format.
 3. Click **Find Scholarships** to generate a targeted intelligence report for the current academic year.
-
-```
-
-```
