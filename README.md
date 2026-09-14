@@ -49,7 +49,7 @@ Create a `.env` file in the root directory and add your Gemini API key:
 
 
 5. **Access the app:**
-Open your browser and navigate to `http://localhost:3000` or double-click the HTML file (``) and open it with your prefered browser (e.g. Microsoft Edge, Google Chrome or Brave)
+Open your browser and navigate to `http://localhost:3000` or double-click the HTML file (`ai-scholarship-matcher.html`) and open it with your prefered browser (e.g. Microsoft Edge, Google Chrome or Brave)
 
 
 ## Usage
