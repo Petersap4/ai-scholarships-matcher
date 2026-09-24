@@ -69,12 +69,12 @@ app.post('/match-scholarships', upload.single('resume'), async (req, res) => {
 
         Provide 4-5 specific, real-world scholarship programs, national foundations (such as local government or state scholarship boards like IKY if country is Greece), or European/international grants available to students in ${country}. For each scholarship/category, you MUST include:
         1. The official name of the scholarship (explicitly referencing the 2026-2027 cycle).
-        2. A direct hyperlink to its official website formatted in Markdown (e.g. [IKY Scholarships](https://www.iky.gr)).
+        2. A direct hyperlink to its official homepage website formatted in Markdown (e.g. [IKY Scholarships](https://www.iky.gr)).
+        MANDATORY : VERIFY THAT ALL THE LINKS PROVIDED ABOVE ACTUALLY LEAD TO THE OFFICIAL HOME PAGES AND NOT TO BROKEN (404) OR OUTDATED PAGES. If a link is broken or outdated, provide an alternative official source.      
         3. Match score and rationale tying their GPA (${gpa}) and major (${major}) to the award criteria.
         4. Actionable advice on how to strengthen their application.
 
-        MANDATORY : VERIFY THAT ALL THE LINKS PROVIDED ABOVE ACTUALLY LEAD TO THE OFFICIAL HOME PAGES AND NOT TO BROKEN (404) OR OUTDATED PAGES. If a link is broken or outdated, provide an alternative official source.
-        !!!!!!AGAIN TEST THE LINKS AND MAKE SURE THOSE LINKS ARE WORKING!!!!!!
+        !!!!!!AGAIN TEST THE LINKS AND MAKE SURE THOSE LINKS ARE WORKING AND LEAD TO THE OFFICIAL HOMEPAGES!!!!!!
         Format the response cleanly using Markdown.
         `;
 
