@@ -17,6 +17,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
 
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'ai-scholarship-matcher.html'));
+});
+
 app.post('/match-scholarships', upload.single('resume'), async (req, res) => {
     try {
         const { major, gpa, academicYear, country } = req.body;
