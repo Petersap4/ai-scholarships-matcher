@@ -63,7 +63,7 @@ app.post('/match-scholarships', upload.single('resume'), async (req, res) => {
         Student Profile:
         - Country of Study/Residence: ${country}
         - Major: ${major}
-        - GPA: ${gpa}
+        - GPA: ${gpa} 
         - Academic Year: ${academicYear}
         - Resume/Background Info: ${resumeText}
 
@@ -73,8 +73,8 @@ app.post('/match-scholarships', upload.single('resume'), async (req, res) => {
         3. Match score and rationale tying their GPA (${gpa}) and major (${major}) to the award criteria.
         4. Actionable advice on how to strengthen their application.
 
-        MANDATORY : VERIFY THAT ALL THE LINKS PROVIDED ABOVE ACTUALLY LEAD TO THE OFFICIAL HOME PAGES AND NOT TO BROKEN(404) OR OUTDATED PAGES. If a link is broken or outdated, provide an alternative official source.
-        AGAIN TEST THE LINKS AND MAKE SURE THOSE LINKS ARE WORKING
+        MANDATORY : VERIFY THAT ALL THE LINKS PROVIDED ABOVE ACTUALLY LEAD TO THE OFFICIAL HOME PAGES AND NOT TO BROKEN (404) OR OUTDATED PAGES. If a link is broken or outdated, provide an alternative official source.
+        !!!!!!AGAIN TEST THE LINKS AND MAKE SURE THOSE LINKS ARE WORKING!!!!!!
         Format the response cleanly using Markdown.
         `;
 
